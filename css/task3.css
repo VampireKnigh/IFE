@@ -1,0 +1,38 @@
+.container{
+	border: 1px solid #999;
+	padding: 20px;
+	background-color: #eee;
+	overflow: auto;
+}
+.left{
+	width: 160px;
+	border: 1px solid #999;
+	background-color: white;
+	padding: 20px;
+	float: left;
+	overflow: auto;
+}
+.team-logo{
+	float: left;
+	margin-right: 20px;
+}
+.right{
+	float: right;
+	border: 1px solid #999;
+	background-color: white;
+	padding: 20px;
+}
+img{
+	width: 80px;
+	height: 80px;
+	display: block;
+}
+.person-logo{
+	margin-top: 20px;
+}
+.center{
+	border: 1px solid #999;
+	padding: 20px;
+	background-color: white;
+	margin:0 140px 0 220px;
+}
