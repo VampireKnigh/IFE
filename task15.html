@@ -82,6 +82,7 @@
      */
     function render(data) {
         var resort = document.getElementById('resort');
+        resort.innerHTML = "";
         for(var i =0 ;i<data.length;i++){
             resort.innerHTML += '<li>'+data[i][0]+'</li>';
         }
